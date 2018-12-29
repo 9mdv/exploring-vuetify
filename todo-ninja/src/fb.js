@@ -3,15 +3,15 @@ import 'firebase/firestore'
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDyx6ZJUPA-xs_BJMkY55mb1RDvivRD0SY",
-  authDomain: "nn-veutify-files.firebaseapp.com",
-  databaseURL: "https://nn-veutify-files.firebaseio.com",
-  projectId: "nn-veutify-files",
-  storageBucket: "nn-veutify-files.appspot.com",
-  messagingSenderId: "494018042073"
-};
-firebase.initializeApp(config);
-const db = firebase.firestore();
-db.settings({ timestampsInSnapshots: true });
+  apiKey: 'AIzaSyCrEx7hzh6EpvFmHhRb_lvCLGX6USn07IM',
+  authDomain: 'todo-ninja-89e42.firebaseapp.com',
+  databaseURL: 'https://todo-ninja-89e42.firebaseio.com',
+  projectId: 'todo-ninja-89e42',
+  storageBucket: 'todo-ninja-89e42.appspot.com',
+  messagingSenderId: '661431751358'
+}
+firebase.initializeApp(config)
+const db = firebase.firestore()
+db.settings({ timestampsInSnapshots: true })
 
-export default db;
+export default db
